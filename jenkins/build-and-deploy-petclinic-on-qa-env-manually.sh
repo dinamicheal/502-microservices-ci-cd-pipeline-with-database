@@ -1,7 +1,7 @@
 PATH="$PATH:/usr/local/bin"
 APP_NAME="petclinic"
 APP_REPO_NAME="dinamicheal/502-microservices-ci-cd-pipeline-with-database"
-APP_STACK_NAME="Swarm-petclinic-App-QA-1"
+APP_STACK_NAME="Swarm-petclinic-App-QA-4"
 CFN_KEYPAIR="test-petclinic-qa.key"
 AWS_ACCOUNT_ID=$(aws sts get-caller-identity --query Account --output text)
 AWS_REGION="us-east-1"
